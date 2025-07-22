@@ -1,0 +1,53 @@
+server:
+  port: 8062
+  address: 0.0.0.0
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://129.211.221.44:3306/quantum?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false&serverTimezone=GMT%2B8
+      username: root
+      password: Fh241022@
+      initial-size: 5
+      min-idle: 5
+      max-active: 20
+      max-wait: 30000
+      time-between-eviction-runs-millis: 60000
+      min-evictable-idle-time-millis: 300000
+      validation-query: select '1' from dual
+      test-while-idle: true
+      test-on-borrow: false
+      test-on-return: false
+      pool-prepared-statements: true
+      max-open-prepared-statements: 20
+      max-pool-prepared-statement-per-connection-size: 20
+      filters: stat,wall
+      filter:
+        stat:
+          enabled: true
+          db-type: mysql
+          log-slow-sql: true
+          slow-sql-millis: 2000
+      stat-view-servlet:
+        url-pattern: /druid/*
+        reset-enable: false
+        login-username: testAdmin
+        login-password: asdcjiafh^&912834
+        enabled: true
+        allow:
+      web-stat-filter:
+        url-pattern: /*
+        exclusions: "*.js,*.gif,*.jpg,*.bmp,*.png,*.css,*.ico,/druid/*"
+        enabled: true
+        session-stat-enable: true
+#swagger 显示隐藏配置
+swagger:
+  show: true
+#大模型地址
+chat_url: https://u439933-be67-e6e9dd45.bjc1.seetacloud.com:8443
+
+
+
+
+

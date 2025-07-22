@@ -1,0 +1,605 @@
+[
+  {
+    "Category": "Quantum Algorithm",
+    "Number": 1,
+    "Question": "Shor算法在实际量子硬件上运行时，如何确保量子比特的状态在整个计算过程中保持稳定，以满足算法对高精度量子态的要求？"
+  },
+  {
+    "Category": "Quantum Algorithm",
+    "Number": 2,
+    "Question": "量子算法中的态叠加原理在复杂计算任务里，怎样精确调控以实现高效运算？"
+  },
+  {
+    "Category": "Quantum Algorithm",
+    "Number": 3,
+    "Question": "从信息论视角看，量子算法相比经典算法，在信息处理的极限上有何不同？"
+  },
+  {
+    "Category": "Quantum Algorithm",
+    "Number": 4,
+    "Question": "量子纠缠在量子算法加速机制中扮演何种关键角色，如何更好地利用纠缠资源？"
+  },
+  {
+    "Category": "Quantum Algorithm",
+    "Number": 5,
+    "Question": "量子算法的运行过程中，如何精准测量量子态以获取有效计算结果，同时避免测量干扰？"
+  },
+  {
+    "Category": "Quantum Algorithm",
+    "Number": 6,
+    "Question": "针对特定的组合优化问题，设计量子算法时，如何选取合适的量子门序列？"
+  },
+  {
+    "Category": "Quantum Algorithm",
+    "Number": 7,
+    "Question": "量子算法在大数据处理中，怎样利用量子并行性提升数据挖掘和分析效率？"
+  },
+  {
+    "Category": "Quantum Algorithm",
+    "Number": 8,
+    "Question": "在量子计算环境下，如何设计安全且高效的分布式量子算法？"
+  },
+  {
+    "Category": "Quantum Algorithm",
+    "Number": 9,
+    "Question": "在利用Shor算法进行实际的大数质因数分解时，如何选择合适的量子比特编码方式，以减少噪声和退相干对计算结果的影响？"
+  },
+  {
+    "Category": "Quantum Algorithm",
+    "Number": 10,
+    "Question": "构建量子算法编译器，需要解决哪些关键技术难题，以实现算法到硬件指令的高效转化？"
+  },
+  {
+    "Category": "Quantum Algorithm",
+    "Number": 11,
+    "Question": "量子算法在金融风险预测和投资组合优化方面，能带来哪些独特的解决方案？"
+  },
+  {
+    "Category": "Quantum Algorithm",
+    "Number": 12,
+    "Question": "Shor算法中量子傅里叶变换（QFT）具体是如何与大数质因数分解任务精确衔接的，从数学推导层面如何解释这种关联？"
+  },
+  {
+    "Category": "Quantum Algorithm",
+    "Number": 13,
+    "Question": "量子机器学习算法在特征提取和模型训练阶段，与经典机器学习有哪些本质差异和优势？"
+  },
+  {
+    "Category": "Quantum Algorithm",
+    "Number": 14,
+    "Question": "量子算法在通信网络的路由优化和流量调度中，能实现怎样的性能突破？"
+  },
+  {
+    "Category": "Quantum Algorithm",
+    "Number": 15,
+    "Question": "面对量子比特的有限寿命和高错误率，量子算法的容错设计有哪些新思路？"
+  },
+  {
+    "Category": "Quantum Algorithm",
+    "Number": 16,
+    "Question": "在量子算法的研究中，如何将Shor算法与其他量子算法（如量子搜索算法）结合，以解决更复杂的综合性问题？"
+  },
+  {
+    "Category": "Quantum Algorithm",
+    "Number": 17,
+    "Question": "如何从理论上证明量子算法在特定问题上相对于经典算法的绝对优势？"
+  },
+  {
+    "Category": "Quantum Algorithm",
+    "Number": 18,
+    "Question": "量子搜索算法（如Grover算法）相比经典搜索算法，在实际应用场景（如数据库搜索）中能带来多大程度的效率提升？"
+  },
+  {
+    "Category": "Quantum Algorithm",
+    "Number": 19,
+    "Question": "如何设计量子算法以解决NP完全问题，目前面临的主要困难是什么？"
+  },
+  {
+    "Category": "Quantum Algorithm",
+    "Number": 20,
+    "Question": "Shor算法在面对具有特殊数学结构的大数（如梅森数）时，是否存在针对性的优化策略来提高分解效率？"
+  },
+  {
+    "Category": "Quantum Hardware",
+    "Number": 1,
+    "Question": "超导量子比特（Transmon）中约瑟夫森结的非线性电感特性在不同温度和磁场环境下，会发生怎样的变化，对量子比特的稳定性有何影响？"
+  },
+  {
+    "Category": "Quantum Hardware",
+    "Number": 2,
+    "Question": "在超导量子比特的制备过程中，如何降低杂质和缺陷对约瑟夫森结性能的干扰，从而提高量子比特的质量？"
+  },
+  {
+    "Category": "Quantum Hardware",
+    "Number": 3,
+    "Question": "超导量子比特与周边电路的耦合方式对其量子态的操控精度和退相干时间有何影响，如何优化这种耦合设计？"
+  },
+  {
+    "Category": "Quantum Hardware",
+    "Number": 4,
+    "Question": "当多个超导量子比特组成量子比特阵列时，如何有效抑制比特间的串扰，确保每个比特能独立且准确地执行量子门操作？"
+  },
+  {
+    "Category": "Quantum Hardware",
+    "Number": 5,
+    "Question": "从量子纠错的角度出发，超导量子比特的物理特性对构建有效的量子纠错码有哪些优势和挑战？"
+  },
+  {
+    "Category": "Quantum Hardware",
+    "Number": 6,
+    "Question": "在大规模超导量子计算芯片的制造过程中，如何保证众多约瑟夫森结的一致性，以实现芯片性能的稳定和可靠？"
+  },
+  {
+    "Category": "Quantum Hardware",
+    "Number": 7,
+    "Question": "当超导量子比特用于量子模拟任务时，如何利用其能级结构特性高效模拟复杂的量子系统？"
+  },
+  {
+    "Category": "Quantum Hardware",
+    "Number": 8,
+    "Question": "在实际应用中，超导量子比特对低温环境的严格要求带来了高昂的制冷成本，有哪些新型制冷技术或优化策略可降低这一成本？"
+  },
+  {
+    "Category": "Quantum Hardware",
+    "Number": 9,
+    "Question": "超导量子比特与光子的接口技术发展现状如何，如何实现高效的超导 - 光子相互转换，以拓展量子信息的传输和处理方式？"
+  },
+  {
+    "Category": "Quantum Hardware",
+    "Number": 10,
+    "Question": "超导量子比特在量子通信领域有哪些潜在应用，其物理特性如何支持量子密钥分发、量子隐形传态等任务？"
+  },
+  {
+    "Category": "Quantum Hardware",
+    "Number": 11,
+    "Question": "超导量子比特的能级结构对量子比特的初始化和测量精度有何影响，如何改进测量技术以提高测量的准确性？"
+  },
+  {
+    "Category": "Quantum Hardware",
+    "Number": 12,
+    "Question": "离子阱量子比特在实现多比特纠缠时，如何有效减少离子间的库仑相互作用干扰，从而提高纠缠保真度？"
+  },
+  {
+    "Category": "Quantum Hardware",
+    "Number": 13,
+    "Question": "量子点量子比特在与外部电路耦合过程中，怎样优化耦合方式以降低噪声引入，确保量子比特的高保真度操作？"
+  },
+  {
+    "Category": "Quantum Hardware",
+    "Number": 14,
+    "Question": "拓扑量子比特凭借何种独特的物理性质展现出强大的抗噪声能力，目前实现拓扑量子比特面临哪些技术挑战？"
+  },
+  {
+    "Category": "Quantum Hardware",
+    "Number": 15,
+    "Question": "基于金刚石氮 - 空位（NV）色心的量子比特，在室温环境下如何进一步提高其量子态的相干时间，拓展其实际应用场景？"
+  },
+  {
+    "Category": "Quantum Hardware",
+    "Number": 16,
+    "Question": "量子硬件中的量子门操作精度受哪些因素制约，如何通过改进硬件设计和控制算法来提升操作精度？"
+  },
+  {
+    "Category": "Quantum Hardware",
+    "Number": 17,
+    "Question": "量子硬件与经典控制电路的接口设计面临哪些挑战，如何实现高效、低噪声的量子 - 经典接口，保障量子计算系统的稳定运行？"
+  },
+  {
+    "Category": "Quantum Hardware",
+    "Number": 18,
+    "Question": "在量子模拟应用中，如何根据模拟对象的特性选择最合适的量子硬件平台，以实现高效、精准的模拟？"
+  },
+  {
+    "Category": "Quantum Hardware",
+    "Number": 19,
+    "Question": "光量子比特在构建远距离量子通信网络方面具有哪些优势，目前在光量子比特的生成、传输和操控过程中存在哪些技术难题？"
+  },
+  {
+    "Category": "Quantum Hardware",
+    "Number": 20,
+    "Question": "量子硬件的量子纠错能力与硬件本身的物理特性紧密相关，如何结合硬件特性设计针对性强、效率高的量子纠错方案？"
+  },
+   {
+      "Category": "Quantum Experiment",
+      "Number": 1,
+      "Question": "在量子态制备的初始化阶段，也就是从∣0⟩⊗∣0⟩开始，实验里怎样保障初始态的纯度呢？"
+    },
+    {
+      "Category": "Quantum Experiment",
+      "Number": 2,
+      "Question": "采用 Hadamard 门生成叠加态时，怎样减小因门操作时间过长而引发的退相干问题？"
+    },
+    {
+      "Category": "Quantum Experiment",
+      "Number": 3,
+      "Question": "实验中，怎样借助随机基准测试来校准 CNOT 门的操作误差？"
+    },
+    {
+      "Category": "Quantum Experiment",
+      "Number": 4,
+      "Question": "制备 Bell 态时，怎样通过动态解耦技术来抑制环境噪声的影响？"
+    },
+    {
+      "Category": "Quantum Experiment",
+      "Number": 5,
+      "Question": "怎样利用量子态层析成像来量化 Bell 态的纠缠程度？"
+    },
+    {
+      "Category": "Quantum Experiment",
+      "Number": 6,
+      "Question": "贝尔不等式的实验验证中，如何处理局域性漏洞和探测漏洞？"
+    },
+    {
+      "Category": "Quantum Experiment",
+      "Number": 7,
+      "Question": "实验数据中，经典噪声和量子噪声在统计特性上有何区别？"
+    },
+    {
+      "Category": "Quantum Experiment",
+      "Number": 8,
+      "Question": "多光子干涉实验里，怎样保证单光子源的不可区分性？"
+    },
+    {
+      "Category": "Quantum Experiment",
+      "Number": 9,
+      "Question": "T - carbon 的拓扑特性对量子比特的相干时间会产生怎样的影响？"
+    },
+    {
+      "Category": "Quantum Experiment",
+      "Number": 10,
+      "Question": "硼掺杂金刚石的纳米结构是否会对量子限域效应造成影响？"
+    },
+    {
+      "Category": "Quantum Experiment",
+      "Number": 11,
+      "Question": "二维材料的范德华异质结是否适合用于构建固态量子比特？"
+    },
+    {
+      "Category": "Quantum Experiment",
+      "Number": 12,
+      "Question": "材料的声子谱会如何影响量子比特的弛豫过程？"
+    },
+    {
+      "Category": "Quantum Experiment",
+      "Number": 13,
+      "Question": "量子点系统中，怎样通过栅极电压来精确控制量子比特的耦合？"
+    },
+    {
+      "Category": "Quantum Experiment",
+      "Number": 14,
+      "Question": "中性原子阵列实验里，如何实现高密度的纠缠态制备？"
+    },
+    {
+      "Category": "Quantum Experiment",
+      "Number": 15,
+      "Question": "超导量子电路中，怎样通过脉冲整形来优化门操作的保真度？"
+    },
+    {
+      "Category": "Quantum Experiment",
+      "Number": 16,
+      "Question": "离子阱实验中，如何抑制因激光相位噪声导致的退相干？"
+    },
+    {
+      "Category": "Quantum Experiment",
+      "Number": 17,
+      "Question": "开放量子系统的主方程模拟怎样与实验数据进行比对？"
+    },
+    {
+      "Category": "Quantum Experiment",
+      "Number": 18,
+      "Question": "量子纠错码的理论极限在实验中是否容易达到？"
+    },
+    {
+      "Category": "Quantum Experiment",
+      "Number": 19,
+      "Question": "机器学习能否用于预测新型量子材料的纠缠特性？"
+    },
+    {
+      "Category": "Quantum Experiment",
+      "Number": 20,
+      "Question": "量子计算的资源估算怎样与具体的硬件架构相结合？"
+    },
+      {
+        "Category": "Quantum Error Correction",
+        "Number": 1,
+        "Question": "表面码的二维网格拓扑结构如何实现容错纠错？边界条件（如开放边界与周期边界）对纠错性能有何影响？"
+      },
+      {
+        "Category": "Quantum Error Correction",
+        "Number": 2,
+        "Question": "逻辑操作符\\(\\overline{X} = \\prod_{i} X_i\\)的构造如何保证对物理比特错误的免疫性？其几何意义是什么？"
+      },
+      {
+        "Category": "Quantum Error Correction",
+        "Number": 3,
+        "Question": "表面码的纠错阈值（~1% 错误率）如何推导？实验中如何逼近这一理论极限？"
+      },
+      {
+        "Category": "Quantum Error Correction",
+        "Number": 4,
+        "Question": "表面码的 Syndrome 测量（错误检测）如何通过辅助量子比特实现？其电路设计的关键挑战是什么？"
+      },
+      {
+        "Category": "Quantum Error Correction",
+        "Number": 5,
+        "Question": "表面码如何区分位翻转（X 错误）和相位翻转（Z 错误）？纠错流程是否需要针对不同错误类型分别处理？"
+      },
+      {
+        "Category": "Quantum Error Correction",
+        "Number": 6,
+        "Question": "量子错误的时空相关性（如连续错误脉冲）是否会影响表面码的纠错效率？如何通过编码设计缓解这一问题？"
+      },
+      {
+        "Category": "Quantum Error Correction",
+        "Number": 7,
+        "Question": "表面码的修补（patching）技术如何实现对局部错误的高效纠正？其与传统量子纠错码的区别是什么？"
+      },
+      {
+        "Category": "Quantum Error Correction",
+        "Number": 8,
+        "Question": "如何通过机器学习优化表面码的错误检测与校正策略？"
+      },
+      {
+        "Category": "Quantum Error Correction",
+        "Number": 9,
+        "Question": "在超导量子芯片中，如何将物理比特排列成表面码所需的二维网格？跨层连接的技术瓶颈是什么？"
+      },
+      {
+        "Category": "Quantum Error Correction",
+        "Number": 10,
+        "Question": "中性原子或离子阱系统中，表面码的扩展（如增加码距）如何平衡纠错能力与系统复杂度？"
+      },
+      {
+        "Category": "Quantum Error Correction",
+        "Number": 11,
+        "Question": "表面码的纠错延迟（即完成一轮纠错所需时间）对量子计算的实时性有何影响？如何优化这一延迟？"
+      },
+      {
+        "Category": "Quantum Error Correction",
+        "Number": 12,
+        "Question": "实验中如何验证表面码对逻辑量子比特的保护效果？是否需要通过量子态层析成像进行直接测量？"
+      },
+      {
+        "Category": "Quantum Error Correction",
+        "Number": 13,
+        "Question": "T-carbon 的二维结构是否适合构建表面码所需的量子比特阵列？其电子特性（如自旋 - 轨道耦合）对纠错有何影响？"
+      },
+      {
+        "Category": "Quantum Error Correction",
+        "Number": 14,
+        "Question": "硼掺杂金刚石的缺陷（如色心）在表面码中能否作为量子比特或辅助探测器？如何降低缺陷间的串扰？"
+      },
+      {
+        "Category": "Quantum Error Correction",
+        "Number": 15,
+        "Question": "二维范德华异质结（如石墨烯 / 氮化硼）是否可用于表面码的集成化设计？其界面质量对相干性的影响如何？"
+      },
+      {
+        "Category": "Quantum Error Correction",
+        "Number": 16,
+        "Question": "表面码与其他量子纠错码（如 Steane 码、CSS 码）相比，在资源开销和容错能力上有何优势？"
+      },
+      {
+        "Category": "Quantum Error Correction",
+        "Number": 17,
+        "Question": "表面码能否与量子中继器结合，实现长距离量子通信中的错误纠正？"
+      },
+      {
+        "Category": "Quantum Error Correction",
+        "Number": 18,
+        "Question": "如何将表面码的纠错能力扩展到多体量子系统（如量子模拟器中的集体错误）？"
+      },
+      {
+        "Category": "Quantum Error Correction",
+        "Number": 19,
+        "Question": "表面码的逻辑量子比特能否支持通用量子门操作？容错逻辑门的构造原理是什么？"
+      },
+      {
+        "Category": "Quantum Error Correction",
+        "Number": 20,
+        "Question": "新型编码方案（如三维表面码或全息纠错码）是否可能突破二维表面码的性能限制？"
+      },
+      
+  {
+      "Category": "Quantum Formula",
+      "Number": 1,
+      "Question": "薛定谔方程（时间依赖形式）中，虚数单位 \\( i \\) 的引入有什么物理意义？"
+  },
+  {
+      "Category": "Quantum Formula",
+      "Number": 2,
+      "Question": "在薛定谔方程 \\( i\\hbar \\frac{\\partial}{\\partial t} |\\Psi(t)\\rangle = H |\\Psi(t)\\rangle \\) 里，普朗克常数 \\( \\hbar \\) 的数值大小对量子态时间演化有怎样的影响？"
+  },
+  {
+      "Category": "Quantum Formula",
+      "Number": 3,
+      "Question": "哈密顿算符 \\( H \\) 在不同的量子系统（如氢原子、多电子分子）中具体形式是如何确定的？"
+  },
+  {
+      "Category": "Quantum Formula",
+      "Number": 4,
+      "Question": "对于给定的简单量子系统（如一维无限深势阱），如何从薛定谔方程推导出其量子态 \\( |\\Psi(t)\\rangle \\) 的具体表达式？"
+  },
+  {
+      "Category": "Quantum Formula",
+      "Number": 5,
+      "Question": "在量子态时间演化模拟中，薛定谔方程数值求解的常用算法有哪些，它们各自的优缺点是什么？"
+  },
+  {
+      "Category": "Quantum Formula",
+      "Number": 6,
+      "Question": "当将薛定谔方程应用于量子化学计算中的分子动力学时，如何处理分子中原子核与电子的相互作用在方程中的体现？"
+  },
+  {
+      "Category": "Quantum Formula",
+      "Number": 7,
+      "Question": "薛定谔方程的解 \\( |\\Psi(t)\\rangle \\) 的归一化条件是什么，在实际计算中如何保证其归一化？"
+  },
+  {
+      "Category": "Quantum Formula",
+      "Number": 8,
+      "Question": "从薛定谔方程出发，如何解释量子系统中的隧穿效应？"
+  },
+  {
+      "Category": "Quantum Formula",
+      "Number": 9,
+      "Question": "在多体量子系统中，薛定谔方程的形式会发生怎样的变化以描述粒子间的相互作用？"
+  },
+  {
+      "Category": "Quantum Formula",
+      "Number": 10,
+      "Question": "薛定谔方程（时间依赖形式）与不含时薛定谔方程之间有怎样的联系和区别？如何从前者推导出后者？"
+  },
+  {
+      "Category": "Quantum Formula",
+      "Number": 11,
+      "Question": "在量子态时间演化过程中，波函数 \\( |\\Psi(t)\\rangle \\) 的相位变化有什么物理意义，在薛定谔方程中是如何体现的？"
+  },
+  {
+      "Category": "Quantum Formula",
+      "Number": 12,
+      "Question": "若对一个量子系统施加外部时变的微扰，薛定谔方程应如何修正以描述这种情况？"
+  },
+  {
+      "Category": "Quantum Formula",
+      "Number": 13,
+      "Question": "在量子光学领域，薛定谔方程如何用于描述光与物质相互作用过程中的量子态演化？"
+  },
+  {
+      "Category": "Quantum Formula",
+      "Number": 14,
+      "Question": "从数学角度看，薛定谔方程中的偏导数 \\( \\frac{\\partial}{\\partial t} \\) 对求解量子态的时间演化带来了哪些挑战，有哪些数学技巧可用于克服这些挑战？"
+  },
+  {
+      "Category": "Quantum Formula",
+      "Number": 15,
+      "Question": "在量子计算中，如何利用薛定谔方程模拟量子比特的状态随时间的变化？"
+  },
+  {
+      "Category": "Quantum Formula",
+      "Number": 16,
+      "Question": "对于复杂的量子系统，薛定谔方程的精确解往往难以获得，常用的近似求解方法有哪些，其理论依据是什么？"
+  },
+  {
+      "Category": "Quantum Formula",
+      "Number": 17,
+      "Question": "薛定谔方程中的哈密顿算符 \\( H \\) 与系统的能量本征值和本征态有怎样的关系，如何通过薛定谔方程求解它们？"
+  },
+  {
+      "Category": "Quantum Formula",
+      "Number": 18,
+      "Question": "在描述量子系统的退相干过程中，薛定谔方程需要进行怎样的拓展或修正？"
+  },
+  {
+      "Category": "Quantum Formula",
+      "Number": 19,
+      "Question": "若考虑相对论效应，薛定谔方程会发生怎样的变化，新的方程在处理高速运动的量子粒子时与原方程有何不同？"
+  },
+  {
+      "Category": "Quantum Formula",
+      "Number": 20,
+      "Question": "从薛定谔方程的角度，如何理解量子系统中的纠缠态及其随时间的演化特性？"
+  },
+    {
+        "Category": "Quantum Diagrams",
+        "Number": 1,
+        "Question": "波函数演化图（如薛定谔方程解的可视化）如何直观展示量子叠加态的动态行为？"
+      },
+      {
+        "Category": "Quantum Diagrams",
+        "Number": 2,
+        "Question": "图表中波函数的模平方（\\(|\\psi(x,t)|^2\\)）与概率密度分布有何对应关系？实验中如何通过测量验证这一关系？"
+      },
+      {
+        "Category": "Quantum Diagrams",
+        "Number": 3,
+        "Question": "多体系统的波函数在图表中如何表示？例如，二维网格中量子比特的纠缠态如何通过图形符号化？"
+      },
+      {
+        "Category": "Quantum Diagrams",
+        "Number": 4,
+        "Question": "量子态的布洛赫球表示与波函数演化图在描述量子特性时有何互补性？"
+      },
+      {
+        "Category": "Quantum Diagrams",
+        "Number": 5,
+        "Question": "量子态层析成像的结果如何通过图表反推密度矩阵？误差条在图表中如何体现？"
+      },
+      {
+        "Category": "Quantum Diagrams",
+        "Number": 6,
+        "Question": "贝尔态制备实验数据（如链接图表）中的保真度曲线如何反映量子门操作的精度？"
+      },
+      {
+        "Category": "Quantum Diagrams",
+        "Number": 7,
+        "Question": "退相干过程在图表中如何量化？例如，相干时间的衰减曲线如何通过指数拟合分析？"
+      },
+      {
+        "Category": "Quantum Diagrams",
+        "Number": 8,
+        "Question": "表面码的纠错性能（如错误率随码距变化）如何通过热力图或等高线图展示？"
+      },
+      {
+        "Category": "Quantum Diagrams",
+        "Number": 9,
+        "Question": "T-carbon 的能带结构图表如何揭示其拓扑特性？与石墨烯的能带图有何关键区别？"
+      },
+      {
+        "Category": "Quantum Diagrams",
+        "Number": 10,
+        "Question": "硼掺杂金刚石的纳米结构图表（如透射电镜图像）是否能直接观察到量子限域效应？"
+      },
+      {
+        "Category": "Quantum Diagrams",
+        "Number": 11,
+        "Question": "二维材料的范德华异质结界面在图表中如何表征？界面质量对量子比特相干性的影响如何量化？"
+      },
+      {
+        "Category": "Quantum Diagrams",
+        "Number": 12,
+        "Question": "材料的声子谱图表（如拉曼光谱）如何帮助设计抗声子噪声的量子器件？"
+      },
+      {
+        "Category": "Quantum Diagrams",
+        "Number": 13,
+        "Question": "量子电路模拟器的输出图表（如量子态的时间演化）如何辅助调试门操作误差？"
+      },
+      {
+        "Category": "Quantum Diagrams",
+        "Number": 14,
+        "Question": "开放量子系统的主方程模拟结果如何通过图表对比实验数据？例如，退相干速率的拟合曲线。"
+      },
+      {
+        "Category": "Quantum Diagrams",
+        "Number": 15,
+        "Question": "机器学习模型训练过程中，损失函数的下降曲线如何指导量子纠错码的优化？"
+      },
+      {
+        "Category": "Quantum Diagrams",
+        "Number": 16,
+        "Question": "量子计算资源估算图表（如所需物理比特数与逻辑门深度的关系）如何影响硬件设计决策？"
+      },
+      {
+        "Category": "Quantum Diagrams",
+        "Number": 17,
+        "Question": "量子点系统中，栅极电压调控的图表如何帮助实现精确的量子比特耦合？"
+      },
+      {
+        "Category": "Quantum Diagrams",
+        "Number": 18,
+        "Question": "中性原子阵列的光镊捕获效率图表如何优化纠缠态制备的保真度？"
+      },
+      {
+        "Category": "Quantum Diagrams",
+        "Number": 19,
+        "Question": "超导量子电路的频率梳图表如何辅助校准量子比特的共振频率？"
+      },
+      {
+        "Category": "Quantum Diagrams",
+        "Number": 20,
+        "Question": "量子 - 经典混合系统的接口设计图表（如金刚石色心与微波腔的耦合）如何平衡量子特性与经典控制？"
+      }
+          
+            
+ ]
